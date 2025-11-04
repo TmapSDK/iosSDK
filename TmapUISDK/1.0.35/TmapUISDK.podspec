@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.summary               = "TmapUISDK"
   s.author                = 'TMAP mobility corp.'
   s.homepage              = "https://www.tmapmobility.com/"
-  s.source                = { :http => "https://devrepo.tmapadmin.com/repository/tmap-sdk-release-ios/TmapUISDK%2F1.0.34%2FTmapUISDK.xcframework.zip" }
+  s.source                = { :http => "https://devrepo.tmapadmin.com/repository/tmap-sdk-release-ios/TmapUISDK%2F1.0.35%2FTmapUISDK.xcframework.zip" }
   s.ios.deployment_target = '13.0'
   s.platform              = :ios, "13.0"
   s.swift_version         = '5.9'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks   = 'TmapUISDK.xcframework'
 
   s.dependency 'VSMSDK', '1.6.102'
-  s.dependency 'TmapNaviSDK', '1.0.34'
+  s.dependency 'TmapNaviSDK', '1.0.35'
   s.dependency 'CombineExt'
   s.dependency 'Solar'
   s.dependency 'Interpolate'
