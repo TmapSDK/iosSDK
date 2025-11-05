@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.dependency 'Interpolate'
   s.dependency 'TinyConstraints'
   s.dependency 'PinLayout'
-  s.dependency 'Alamofire'
+  s.dependency 'Alamofire', '<= 5.8.1'
   s.dependency 'KeychainAccess'
   s.dependency 'MarqueeLabel'
   s.dependency 'FlexLayout'
